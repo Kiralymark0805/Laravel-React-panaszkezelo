@@ -1,0 +1,128 @@
+/* General styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f7fc;
+  color: #333;
+}
+
+/* App container */
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #f7fafc;
+}
+
+/* Header */
+.header {
+  padding: 1rem;
+  background-color: #002340;
+  color: white;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.title {
+  font-size: 1.75rem;
+  font-weight: bold;
+}
+
+.logo {
+  width: 120px;
+  height: auto;
+}
+
+/* Main content */
+.main-content {
+  flex-grow: 1;
+  padding: 2rem;
+}
+
+.content-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.section-title {
+  font-size: 3rem;
+  font-weight: 600;
+  color: #2d3748;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+/* Complaint Card */
+.complaint-card {
+  background-color: #b4ff00;
+  border: 1px solid #e2e8f0;
+  border-radius: 0.375rem;
+  padding: 1rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 1rem;
+  transition: background-color 0.2s;
+}
+
+.complaint-card:hover {
+  background-color: #f1f5f9;
+}
+
+.complaint-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.complaint-title {
+  font-weight: bold;
+  font-size: 2rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.complaint-email {
+  font-size: 1rem;
+  color: #4a5568;
+}
+
+.complaint-description {
+  font-size: 1rem;
+  color: #2d3748;
+  margin-bottom: 1rem;
+}
+
+.complaint-footer {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.delete-button {
+  padding: 0.5rem 1rem;
+  background-color: #e53e3e;
+  color: white;
+  border: none;
+  border-radius: 0.375rem;
+  cursor: pointer;
+}
+
+.delete-button:hover {
+  background-color: #c53030;
+}
+
+/* Footer */
+.footer {
+  padding: 1rem;
+  background-color: #002340;
+  color: white;
+  text-align: center;
+}
