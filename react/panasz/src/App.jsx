@@ -50,7 +50,9 @@ function App() {
             src="public/images/logo.png"
             alt="Yettel logo"
           />
-          <h1 className="title">Yettel HUNGARY</h1>
+          <a href="https://www.yettel.hu/" target="_blank" className="title">
+            Yettel HUNGARY
+          </a>
         </div>
       </header>
 
